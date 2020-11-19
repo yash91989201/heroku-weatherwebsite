@@ -84,7 +84,65 @@ font-size: 3rem;
 }
 
 
-/* 
-
-
-*/
+@media screen and (max-width:480){
+   
+    html{
+        font-size:31.25%;
+    }
+    .main_content{
+    
+        border-radius: 2rem;
+        display:inline-block;
+        width:50rem;
+        background-color: #1e272e;
+        height:5rem;
+        
+    }
+    .main_content #cityName{
+        border:none;
+        border-radius: 1.3rem;
+        outline: none;
+        width:30rem;
+        background-color: #1e272e;
+        color: aliceblue;
+        margin-left: 2.15rem;
+        margin-right:2.15rem;
+        height:5rem;
+    }
+    .main_content #submitBtn{
+        border:none;
+        border-radius: 2rem;
+        outline: none;
+        width:15rem;
+        background-color: var(--main-color);
+        color: #000;
+        height:5rem;
+    }
+    .temp_information{
+        display:inline-block;
+        width:50rem;
+        height:30rem;
+        background-color: #0097e6;
+        border-radius: 2rem;
+        margin-top:2.5rem;
+        padding:4rem;
+        background-color: #1e272e;
+        color:grey;
+    }
+    .top_layer{
+        
+        
+        display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 3rem;
+    }
+    .middle_layer{
+        
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 5rem;
+        color:#fff;
+    }
+}
