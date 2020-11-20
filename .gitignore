@@ -1,1 +1,4 @@
 node_modules/
+#  .scss and .min.css file not required , only .css is required
+public/css/*.scss
+public/css/*.css.map
